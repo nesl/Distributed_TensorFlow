@@ -22,6 +22,9 @@ The code of the backend is present in Backend folder.
 3. Installing distributed TensorFlow on multiple machines is explained on the official page [here](https://www.tensorflow.org/deploy/distributed).
 4. First add the cluster details in the server file, and then start the server process on each device of cluster as explained in the official documentation given in 3.
 5. Now you can start the flask basked backend server to listen to the incoming connections.
+###  Requirements
+1. Raspberry pi with camera attached and running python 2.7+ along with following the installations described in upper sections.
+2. Connectivity of cluster devices along with unique ip assingement in the local subnet. All cluster devices should be able to logically communicate with each other.
 
 ## 3. FrontEnd
 The frontend is developed using the Javascript. The server is hosted using the apache tomcat and is deveoped in eclipse.
