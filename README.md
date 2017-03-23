@@ -19,6 +19,9 @@ The code of the backend is present in Backend folder.
 ###  Installation
 1. The cluster on raspberry pi devices is set up by following the procedure described [here](https://github.com/samjabrahams/tensorflow-on-raspberry-pi).
 2. The flask installation is described in detail [here](http://flask.pocoo.org/docs/0.12/tutorial/).
+3. Installing distributed TensorFlow on multiple machines is explained on the official page [here](https://www.tensorflow.org/deploy/distributed).
+4. First add the cluster details in the server file, and then start the server process on each device of cluster as explained in the official documentation given in 3.
+5. Now you can start the flask basked backend server to listen to the incoming connections.
 
 ## 3. FrontEnd
 The frontend is developed using the Javascript. The server is hosted using the apache tomcat and is deveoped in eclipse.
