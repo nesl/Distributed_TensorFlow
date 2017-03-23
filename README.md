@@ -29,7 +29,8 @@ The code of the backend is present in Backend folder.
 ## 3. FrontEnd
 The frontend is developed using the Javascript. The server is hosted using the apache tomcat and is deveoped in eclipse.
 ###  Installation
-The eclipse for web development can be downloaded from the [link](http://www.eclipse.org/downloads/packages/eclipse-ide-javascript-web-developers/indigosr2)
+1. The eclipse for web development can be downloaded from the [link](http://www.eclipse.org/downloads/packages/eclipse-ide-javascript-web-developers/indigosr2)
+2. The eclipse requires the setting up of Apache Tomcat which is explained in detail [here](http://tomcat.apache.org/).
 
 ## 4. SoftMax_Local
 This folder contains the local implementation the softmax in python.
