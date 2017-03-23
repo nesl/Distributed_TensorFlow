@@ -20,7 +20,9 @@ This repository contains the code used to set up distributed TensorFlow cluster 
 The AlexNet is build in Tensorflow. 
 We imported the caffe trained model (https://github.com/BVLC/caffe/tree/master/models/bvlc_alexnet) and only make inference in our program to get the image classification result.
 The codes include:
-Runnining AlexNet in local machine/in distributed clusters (after partition)/in distributed clusters (multiple sessions)
+1. Runnining AlexNet in local machine
+2. In distributed clusters (after partition)
+3. In distributed clusters (multiple sessions)
 
 ## 2. Backend
 The backend server is developed using Flask in Python. The backend listend to the connections from the front end and process the request.
@@ -47,7 +49,7 @@ The frontend is developed using the Javascript. The server is hosted using the a
 ## 4. SoftMax_Local
 This folder contains the local implementation the softmax in python.
 The codes include:
-Training the naive softmax regression classifier and stored the ckeckpoint files.
-Running inference using softmax regression classifier on both MINST dataset and also self-created digit image data.
-Running softmax in single machine, and in distributed cluster settings.
-Folder for Image preprocessing in TensorFlow.
+1. Training the naive softmax regression classifier and stored the ckeckpoint files.
+2. Running inference using softmax regression classifier on both MINST dataset and also self-created digit image data.
+3. Running softmax in single machine, and in distributed cluster settings.
+4. Folder for Image preprocessing in TensorFlow.
