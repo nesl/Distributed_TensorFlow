@@ -17,10 +17,11 @@ This repository contains the code used to set up distributed TensorFlow cluster 
 The backend server is developed using Flask in Python. The backend listend to the connections from the front end and process the request.
 The code of the backend is present in Backend folder.
 ###  Installation
-The cluster on raspberry pi devices is set up by following the procedure described in [https://github.com/samjabrahams/tensorflow-on-raspberry-pi](https://www.google.com)
+1. The cluster on raspberry pi devices is set up by following the procedure described [here](https://github.com/samjabrahams/tensorflow-on-raspberry-pi).
+2. The flask installation is described in detail [here](http://flask.pocoo.org/docs/0.12/tutorial/).
 
 ## 3. FrontEnd
-The frontend is developed using the Javascript. The server is hosted using the apache tomcat and is deveoped in eciplse.
+The frontend is developed using the Javascript. The server is hosted using the apache tomcat and is deveoped in eclipse.
 ###  Installation
 The eclipse for web development can be downloaded from the [link](http://www.eclipse.org/downloads/packages/eclipse-ide-javascript-web-developers/indigosr2)
 
