@@ -3,11 +3,11 @@ This repository contains the code used to set up distributed TensorFlow cluster 
 
 ## There are 4 folders the details of which are explained as below:
 
-*Alex
+* Alex
 
-*Backend
+* Backend
 
-*FrontEnd
+* FrontEnd
 
-*SoftMax_Local
+* SoftMax_Local
 
