@@ -13,6 +13,6 @@ This repository contains the code used to set up distributed TensorFlow cluster 
 
 1. Alex
 
-2. Backend
+2. ## Backend
 The backend server is developed using Flask in Python. The backend listend to the connections from the front end and process the request.
 The code of the backend is present in Backend folder.
