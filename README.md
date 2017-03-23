@@ -1,6 +1,11 @@
 # Distributed_TensorFlow
 This repository contains the code used to set up distributed TensorFlow cluster for the course project CSM213B.
 
+## Details about Project
+1. Website more details is available [here](https://sites.google.com/view/csm213b/home).
+2. Demo video is available [here](https://www.youtube.com/watch?v=Xyw2u2cab84).
+3. Slides of the final presentation are available [here](https://drive.google.com/file/d/0B9XBlYTll5ttTDFkZVVGc3g2b0U/view?usp=sharing).
+
 ## There are 4 folders the details of which are explained as below:
 
 * Alex
@@ -29,8 +34,11 @@ The code of the backend is present in Backend folder.
 ## 3. FrontEnd
 The frontend is developed using the Javascript. The server is hosted using the apache tomcat and is deveoped in eclipse.
 ###  Installation
-1. The eclipse for web development can be downloaded from the [link](http://www.eclipse.org/downloads/packages/eclipse-ide-javascript-web-developers/indigosr2)
+1. The eclipse for web development can be downloaded from the [link](http://www.eclipse.org/downloads/packages/eclipse-ide-javascript-web-developers/indigosr2).
 2. The eclipse requires the setting up of Apache Tomcat which is explained in detail [here](http://tomcat.apache.org/).
+###  Requirements
+1. Eclipse requires the Java SDK to be installed.
+2. The machine running frontend should be able to communicate with the cluster so as to schedule jobs at runtime on the cluster backend server.
 
 ## 4. SoftMax_Local
 This folder contains the local implementation the softmax in python.
