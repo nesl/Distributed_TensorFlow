@@ -17,6 +17,7 @@ This repository contains the code used to set up distributed TensorFlow cluster 
 * SoftMax_Local
 
 ## 1. Alex
+edit this line
 
 ## 2. Backend
 The backend server is developed using Flask in Python. The backend listend to the connections from the front end and process the request.
