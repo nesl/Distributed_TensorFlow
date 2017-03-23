@@ -11,3 +11,4 @@ This repository contains the code used to set up distributed TensorFlow cluster 
 
 * SoftMax_Local
 
+- Alex
